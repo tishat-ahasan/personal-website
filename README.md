@@ -21,7 +21,10 @@ This is a professional portfolio website for Md Ahasanul Alam, Lecturer at BRAC 
 - Font Awesome Icons
 
 ## Setup and Installation
-1. Clone the repository
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/ahasan04.git
+   ```
 2. Open `index.html` in a modern web browser
 3. No additional dependencies required
 
@@ -38,10 +41,21 @@ Replace the following placeholders with your personal information:
 - Project details
 
 ## Deployment
-This website can be easily deployed to:
-- GitHub Pages
-- Netlify
-- Vercel
+This website can be deployed to GitHub Pages and will be accessible at:
+`https://YOUR_USERNAME.github.io/ahasan04`
+
+Steps to deploy:
+1. Create a GitHub repository named `ahasan04`
+2. Push the code to your repository:
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/YOUR_USERNAME/ahasan04.git
+   git push -u origin main
+   ```
+3. Enable GitHub Pages in repository settings
 
 ## Future Improvements
 - Add actual project links
